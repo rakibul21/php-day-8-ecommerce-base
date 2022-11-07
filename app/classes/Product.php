@@ -83,4 +83,8 @@ class Product
             }
         }
     }
+    public function getAllProducts(){
+        return $this->products;
+    }
+
 }

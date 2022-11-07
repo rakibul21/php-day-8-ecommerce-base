@@ -6,6 +6,12 @@ use App\classes\Product;
 $category = new Category();
 $categories = $category->getAllCategory();
 
+$product =new Product();
+$products=$product->getAllProducts();
+
+
+
+
 
 if (isset($_GET['page']))
 {
@@ -21,10 +27,12 @@ if (isset($_GET['page']))
     {
         $product = new Product();
         $products = $product->getProductsByCategory($_GET['category_id']);
+
         include 'pages/category-product.php';
     }
     elseif ($_GET['page'] == 'product-detail')
     {
+
         $product = new Product();
         $singelProduct = $product -> getProductId($_GET['id']);
         include 'pages/product-detail.php';
