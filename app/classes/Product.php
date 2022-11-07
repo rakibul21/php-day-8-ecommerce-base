@@ -58,6 +58,38 @@ class Product
               'price'       => 400,
               'image'       => 'product6.webp'
           ],
+          6 => [
+              'id'          => 7,
+              'category_id' => 4,
+              'name'        => 'Sharee',
+              'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+              'price'       => 2400,
+              'image'       => 'product7.jpeg'
+          ],
+          7 => [
+              'id'          => 8,
+              'category_id' => 4,
+              'name'        => 'Woman T-Shirt',
+              'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+              'price'       => 900,
+              'image'       => 'product8.webp'
+          ],
+          8 => [
+              'id'          => 9,
+              'category_id' => 5,
+              'name'        => 'Kids T-Shirt',
+              'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+              'price'       => 900,
+              'image'       => 'product9.jpg'
+          ],
+          9 => [
+              'id'          => 10,
+              'category_id' => 5,
+              'name'        => 'Kids Pant',
+              'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+              'price'       => 700,
+              'image'       => 'product10.jpg'
+          ],
         ];
     }
 
